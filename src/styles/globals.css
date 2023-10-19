@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Product Sans Regular';
+  src: url('/font/Product Sans Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Product Sans Bold';
+  src: url('/font/Product Sans Bold.ttf') format('truetype');
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background: #161616;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  font-family: 'Product Sans Regular';
+  color: rgb(var(--foreground-rgb));
+  background: var(--background);
+  overflow-x: hidden;
+  /* background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+
+.mobile-menu {
+  transform: translateY(0);
+  transition: transform 0.3s linear;
+}
+
+.mobile-menu.hidden {
+  transform: translateY(-100%);
+}
