@@ -22,9 +22,9 @@ const About = () => {
             <br />
             <br />
             With a keen eye for product evolution, I excel in prioritizing
-            tasks, iterating rapidly, and delivering results efficiently. I'm
+            tasks, iterating rapidly, and delivering results efficiently. I&rsquo;m
             driven by the belief that the best designs not only look good but
-            also enhance user experiences, and I'm dedicated to crafting
+            also enhance user experiences, and I&rsquo;m dedicated to crafting
             meaningful and useful solutions that delight both the eye and the
             end user.
           </p>
