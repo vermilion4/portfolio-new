@@ -29,7 +29,7 @@ const Services = () => {
         <div className="text-white text-sm pt-14 lg:pt-0 lg:pl-14 flex flex-col items-center md:items-start">
         <Image src="/service3.svg" alt="service image" width={48} height={48} />
           <h3 className="text-lg mb-2 mt-[23px]">What you can expect</h3>
-          <p className="mb-[11px] opacity-70 text-center md:text-start">My focus is on more than just creating stunning products; it's about prioritizing exceptional user experiences. Users first, design second</p>
+          <p className="mb-[11px] opacity-70 text-center md:text-start">My focus is on more than just creating stunning products; it&apos;s about prioritizing exceptional user experiences. Users first, design second</p>
           <ul className="opacity-70 list-disc space-y-3 list-inside">
             <li>Innovative and useable products</li>
             <li>Creative visual designs</li>
