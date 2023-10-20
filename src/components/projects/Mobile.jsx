@@ -22,17 +22,20 @@ export default function Mobile() {
               <p className='tracking-[0.42px]'>{project.title}</p>
 
               <div className='flex gap-3 items-center'>
-                <Link
-                  href={project.behance}
-                  target='_blank'
-                  className='hover:scale-105 transition-all ease-in'>
-                  <Image
-                    src='/behance-circle.svg'
-                    width={30}
-                    height={30}
-                    alt='social media icon'
-                  />
-                </Link>
+                {project?.behance && (
+                  <Link
+                    href={project.behance}
+                    target='_blank'
+                    className='hover:scale-105 transition-all ease-in'>
+                    <Image
+                      src='/behance-circle.svg'
+                      width={30}
+                      height={30}
+                      alt='social media icon'
+                    />
+                  </Link>
+                )}
+
                 {project?.figma && (
                   <Link href={project.figma} target='_blank'>
                     <Image

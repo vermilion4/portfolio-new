@@ -47,9 +47,11 @@ export default function Desktop() {
                 </p>
                 </div>
                 <div className="absolute bottom-5 right-5 flex gap-3 items-center">
+                {project?.behance && (
                   <Link href={project.behance} target="_blank" className="hover:scale-105 transition-all ease-in">
                   <Image src='/behance-circle.svg' width={30} height={30} alt="social media icon" />
                   </Link>
+                )}
                   {
                     project?.figma && (
                       <Link href={project.figma} target="_blank" className='hover:scale-105 transition-all ease-in'><Image src='/figma-circle.svg' width={30} height={30} alt="social media icon" /></Link>)

@@ -45,9 +45,14 @@ const About = () => {
             </Link>
             <hr className='opacity-30 w-[50px]' />
             <ul className='flex gap-4'>
+            <Link href={'https://www.linkedin.com/in/echezona-oji-263b1b148'} target="_blank" className="ease-in transition-all hover:scale-110">
           <li className='tracking-[0.42px] text-sm'><Image src='/linkedin.svg' width={16} height={16} alt="linkedin icon" /></li>
-          <li className='tracking-[0.42px] text-sm'><Image src='/behance.svg' width={16} height={16} alt="behance icon" /></li>
+          </Link>
+          <Link href={'https://www.behance.net/echezonaoji'} target="_blank" className="ease-in transition-all hover:scale-110">
+          <li className='tracking-[0.42px] text-sm'><Image src='/behance.svg' width={16} height={16} alt="behance icon" /></li></Link>
+          <Link href={'https://wa.me/+2347085758177'} target="_blank" className="ease-in transition-all hover:scale-110">
           <li className='tracking-[0.42px] text-sm'><Image src='/whatsapp.svg' width={15.8} height={16} alt="whatsapp icon" /></li>
+          </Link>
         </ul>
           </div>
         </div>
