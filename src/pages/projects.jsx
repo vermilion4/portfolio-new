@@ -21,7 +21,7 @@ const Projects = () => {
   return ( 
     <section className="pt-48 max-w-7xl mx-auto">
       <div className="flex flex-col px-5">
-        <div className="text-white text-lg font-bold tracking-wide">
+        <div className="text-white text-lg font-bold tracking-[0.54px]">
           Project Showcase
         </div>
         {isMobile ? <Mobile /> : <Desktop />}

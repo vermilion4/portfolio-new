@@ -12,7 +12,7 @@ export const projects = [
     description: "Warehöuzit is a warehouse ecosystem network that connects space users with commercial, cost-effective warehouse / storage spaces in order to increase their time to market and improve their cost structure in delivering goods and services to their customers.",
     alt: "Project 2",
     behance: 'https://www.behance.net/gallery/179601297/Warehouzit-Web-App',
-    figma: '#'
+    figma: 'https://www.figma.com/file/p76yT25QAyJTVb8QBmMRsm/Warehouzit?type=design&mode=design&t=tzIDdNyFNcTAIP8Z-1'
   },
   {
     title: "CarmpUs",
