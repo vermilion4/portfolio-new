@@ -71,3 +71,8 @@ body {
   }
 }
 
+li:hover Image {
+  fill: #0077B5; /* Change this to your desired LinkedIn icon hover fill color */
+}
+
+
