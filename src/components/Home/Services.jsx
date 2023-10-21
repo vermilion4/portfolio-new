@@ -5,7 +5,7 @@ const Services = () => {
     <section className="max-w-7xl mx-auto pt-14 pb-20 flex flex-col items-center px-5 sm:px-10">
       <h2 className="text-2xl font-bold tracking-[0.72px] mb-4">My Services</h2>
       <p className="text-white opacity-30 text-sm tracking-[0.42px] mb-12">Services I offer to my clients</p>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 w-4/5">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 w-2/3 md:w-4/5">
         <div className="text-white text-sm pb-14 lg:pb-0 lg:pr-14 lg:border-r border-b lg:border-b-0 border-white border-opacity-10 flex flex-col items-center md:items-start">
           <Image src="/service1.svg" alt="service image" width={57} height={57} />
           <h3 className="text-lg mb-2 mt-[23px]">What I can do for you</h3>

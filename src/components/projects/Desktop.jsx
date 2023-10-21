@@ -1,18 +1,24 @@
 import { projects } from '@/data/projects';
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import React, { useState } from 'react';
 
 export default function Desktop() {
   const [showProject, setShowProject] = useState(0);
+  const [initialOverlay, setShowInitialOverlay] = useState(false)
 
   const handleMouseEnter = (index) => {
     setShowProject(index);
+    setShowInitialOverlay(true)
   };
+
+  // useEffect(()=>{
+
+  // },[])
 
   const handleMouseLeave = () => {
     setShowProject(0);
+    setShowInitialOverlay(false)
   };
 
   return (
@@ -31,9 +37,9 @@ export default function Desktop() {
             width={672}
             height={501}
             alt={project.alt}
-            className='aspect-[1.34] object-cover object-center w-full overflow-hidden self-stretch grow  rounded-lg'
+            className='bg-white aspect-[1.34] object-cover object-center w-full overflow-hidden self-stretch grow  rounded-lg'
           />
-          {showProject === index && (
+          {showProject === index && initialOverlay && (
             <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-80 transition-all duration-500 grid place-content-center text-center text-white rounded-lg ease-in-out'>
               {/* Add project details here */}
               <div

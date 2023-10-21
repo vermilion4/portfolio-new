@@ -29,7 +29,7 @@ const About = () => {
             crafting meaningful and useful solutions that delight both the eye
             and the end user.
           </p>
-          <div className='flex flex-col sm:flex-row gap-3 opacity-30 mb-10'>
+          <div className='flex gap-3 opacity-30 mb-10'>
             <div className='flex'>
               <Image width={16.2} height={16.2} src='/map.svg' alt='map pin' />
               <span className='text-sm ml-[6px]'>Abuja, Nigeria</span>
@@ -48,7 +48,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className='flex flex-col sm:flex-row gap-3 items-center'>
+          <div className='flex gap-3 items-center'>
             <Link
               href={
                 'https://drive.google.com/file/d/1rB12Irl8TrAbVWUGrOKVDrf_wwPpluTm/view'
@@ -65,7 +65,7 @@ const About = () => {
               View resume
             </Link>
             <hr className='opacity-30 w-[50px] hidden sm:block' />
-            <ul className='flex gap-4'>
+            <ul className='gap-4 hidden sm:flex'>
               <Link
                 href={'https://www.linkedin.com/in/echezona-oji-263b1b148'}
                 target='_blank'
