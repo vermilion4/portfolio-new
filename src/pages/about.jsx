@@ -3,11 +3,13 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <section className='max-w-7xl px-5 sm:px-10 mx-auto pt-[166px]'>
-      <div className='grid lg:grid-cols-2 gap-16'>
-        <div className='bg-blend-luminosity bg-eche w-full h-[863px] bg-center bg-cover bg-no-repeat bg-primary rounded-[50px] animate-fade-up animate-duration-[2000ms] animate-ease-in-out'>
-          {/* <Image src="/eche.jpg" alt="Eche Oji's picture" width={656} height={863} /> */}
-        </div>
+    <section className='px-5 sm:px-10 mx-auto pt-[166px]'>
+      <div className='grid lg:grid-cols-2 gap-16 max-w-7xl mx-auto'>
+
+<div class="relative rounded-lg p-[2px] bg-animation h-[543px]">
+<div className='relative bg-blend-luminosity bg-eche w-full bg-center bg-cover bg-no-repeat bg-primary rounded-lg animate-fade-up animate-duration-[2000ms] animate-ease-in-out z-20 h-full'></div>
+</div>
+
         <div className='animate-fade animate-duration-[2000ms] animate-ease-in'>
           <h3 className='text-accent mb-[14px]'>Who am i?</h3>
           <h3 className='mb-2 text-[28px] font-bold tracking-[0.84px]'>

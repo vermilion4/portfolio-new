@@ -19,8 +19,8 @@ const Projects = () => {
   }, []);
 
   return ( 
-    <section className="pt-48 max-w-7xl mx-auto px-5 sm:px-10">
-      <div className="flex flex-col">
+    <section className="pt-48 px-5 sm:px-10">
+      <div className="flex flex-col max-w-7xl mx-auto">
         <div className="text-white text-lg font-bold tracking-[0.54px]">
           Project Showcase
         </div>

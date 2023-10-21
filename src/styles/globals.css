@@ -44,3 +44,30 @@ body {
 .mobile-menu.hidden {
   transform: translateY(-100%);
 }
+
+.bg-animation:after {
+  content: "";
+  --angle: 0deg;
+  border-radius: 0.6rem;
+  @apply absolute inset-0 z-0 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false
+}
+
+@keyframes rotate-animation {
+  to {
+      --angle: 360deg
+  }
+}
+
+@supports (background: paint(houdini)) {
+  .bg-animation:after {
+      animation: rotate-animation 10s linear infinite;
+      background: linear-gradient(var(--angle),#03284b, #085CA8,#03284b,#085CA8);
+  }
+}
+

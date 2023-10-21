@@ -5,18 +5,18 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Desktop() {
-  const [showProject, setShowProject] = useState(null);
+  const [showProject, setShowProject] = useState(0);
 
   const handleMouseEnter = (index) => {
     setShowProject(index);
   };
 
   const handleMouseLeave = () => {
-    setShowProject(null);
+    setShowProject(0);
   };
 
   return (
-    <div className='justify-center items-center flex w-full gap-2 mt-6 pl-0.5 pr-5 max-md:max-w-full'>
+    <div className='justify-center items-center flex w-full gap-2 mt-6 pl-0.5 max-md:max-w-full'>
       {projects.map((project, index) => (
         <div
           key={index}
