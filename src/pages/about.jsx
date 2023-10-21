@@ -51,7 +51,7 @@ const About = () => {
           <div className='flex gap-3 items-center'>
             <Link
               href={
-                'https://drive.google.com/file/d/1rB12Irl8TrAbVWUGrOKVDrf_wwPpluTm/view'
+                'https://drive.google.com/file/d/1Ga99juIremE2hmfSdprRzdakB6xsSsCK/view?usp=sharing'
               }
               target='_blank'
               className='px-6 py-[17px] flex border border-accent rounded-lg hover:bg-accent transition-all ease-in w-max'>
