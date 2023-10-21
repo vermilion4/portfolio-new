@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className='min-h-[100vh] place-content-center grid bg-hero pt-36'>
+    <section className='min-h-[80vh] md:min-h-[60vh] lg:min-h-[100vh] place-content-center grid bg-hero pt-36'>
       <div className='relative w-2/3 max-w-7xl flex flex-col items-center mx-auto'>
         <div className='absolute -top-5 lg:left-0 -left-10 animate-pulse'>
           <div className='relative p-1 pt-[2.5px] rounded-[2px] border-[0.5px] border-white border-opacity-10'>
@@ -45,8 +45,8 @@ const Hero = () => {
             />
           </div>
         </div>
-        <h1 className='mb-[7px] animate-fade-up animate-duration-[1500ms] animate-ease-out'>Hi, my name is Echezona Oji</h1>
-        <h2 className='text-2xl md:text-3xl xl:text-5xl font-bold tracking-[1.44px] text-center xl:leading-snug mb-[53px] animate-fade-up animate-duration-[1500ms] animate-delay-[400ms] animate-ease-out'>
+        <h1 className='mb-[7px] animate-fade-up animate-duration-[1500ms] animate-ease-out text-sm sm:text-base'>Hi, my name is Echezona Oji</h1>
+        <h2 className='text-lg sm:text-2xl md:text-3xl xl:text-5xl font-bold tracking-[1.44px] text-center xl:leading-snug mb-[25px] md:mb-[53px] animate-fade-up animate-duration-[1500ms] animate-delay-[400ms] animate-ease-out'>
           My passion lies in crafting{' '}
           <span className='text-accent'>memorable</span> experiences through
           human-centric & data-driven{' '}
