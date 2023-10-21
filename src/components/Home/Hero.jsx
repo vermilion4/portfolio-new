@@ -4,8 +4,8 @@ import Link from 'next/link';
 const Hero = () => {
   return (
     <section className='min-h-[80vh] md:min-h-[70vh] lg:min-h-[100vh] place-content-center grid bg-hero pt-36'>
-      <div className='relative w-2/3 max-w-7xl flex flex-col items-center mx-auto'>
-        <div className='absolute -top-5 lg:left-0 -left-10 animate-pulse'>
+      <div className='relative w-4/5 sm:w-2/3 max-w-7xl flex flex-col items-center mx-auto'>
+        <div className='absolute -top-5 lg:left-0 -left-5 animate-pulse'>
           <div className='relative p-1 pt-[2.5px] rounded-[2px] border-[0.5px] border-white border-opacity-10'>
             <span className='px-2 py-[3px] rounded-[2px] text-xs lg:text-sm tracking-[0.42px] border-[0.5px] border-white border-opacity-10 bg-white bg-opacity-[12%]'>
               Brand Design
@@ -31,7 +31,7 @@ const Hero = () => {
             className='absolute -bottom-3 -right-1 animate-bounce'
           />
         </div>
-        <div className='absolute -top-5 lg:right-0 -right-10'>
+        <div className='absolute -top-5 lg:right-0 -right-5'>
           <div className='p-1 pt-[2.5px] rounded-[2px] border-[0.5px] border-white border-opacity-10 animate-pulse'>
             <span className='px-2 py-[3px] rounded-[2px] text-xs lg:text-sm tracking-[0.42px] border-[0.5px] border-white border-opacity-10 bg-white bg-opacity-[12%]'>
               UI/UX Design
