@@ -43,7 +43,7 @@ export default function Desktop() {
             width={672}
             height={501}
             alt={project.alt}
-            className='bg-white aspect-[1.34] object-cover object-center w-full overflow-hidden self-stretch grow  rounded-lg'
+            className='bg-white bg-opacity-25 aspect-[1.34] object-cover object-center w-full overflow-hidden self-stretch grow  rounded-lg'
             onLoad={() => setShowLoader(false)} // This triggers when the image has loaded
           />
           {showProject === index && initialOverlay && (
