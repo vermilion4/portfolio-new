@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Services = () => {
   return ( 
-    <section className="max-w-6xl mx-auto pt-14 pb-20 flex flex-col items-center px-10">
+    <section className="max-w-6xl mx-auto pt-14 pb-20 flex flex-col items-center px-5 sm:px-10">
       <h2 className="text-2xl font-bold tracking-[0.72px] mb-4">My Services</h2>
       <p className="text-white opacity-30 text-sm tracking-[0.42px] mb-12">Services I offer to my clients</p>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 w-[80vw]">

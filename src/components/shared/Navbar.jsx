@@ -9,7 +9,7 @@ const Navbar = () => {
   let nav = router.pathname;
 
   return ( 
-    <header className="px-10 fixed w-full top-0 z-50 backdrop-blur-lg bg-[rgba(0,0,0,0.2)]">
+    <header className="px-5 sm:px-10 fixed w-full top-0 z-50 backdrop-blur-lg bg-[rgba(0,0,0,0.2)]">
       {
         openMenu && <div onClick={()=> setOpenMenu(false)} className="left-0 top-0 absolute w-screen ease-in transition-all duration-500 h-screen bg-black bg-opacity-30 z-20">
         </div>

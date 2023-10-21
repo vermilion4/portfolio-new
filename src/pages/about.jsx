@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const About = () => {
   return (
-    <section className='max-w-7xl px-10 mx-auto pt-[166px]'>
+    <section className='max-w-7xl px-5 sm:px-10 mx-auto pt-[166px]'>
       <div className='grid lg:grid-cols-2 gap-16'>
         <div className='bg-blend-luminosity bg-eche w-full h-[863px] bg-center bg-cover bg-no-repeat bg-primary rounded-[50px] animate-fade-up animate-duration-[2000ms] animate-ease-in-out'>
           {/* <Image src="/eche.jpg" alt="Eche Oji's picture" width={656} height={863} /> */}
@@ -28,7 +28,7 @@ const About = () => {
             meaningful and useful solutions that delight both the eye and the
             end user.
           </p>
-          <div className='flex gap-3 opacity-30 mb-10'>
+          <div className='flex flex-col sm:flex-row gap-3 opacity-30 mb-10'>
             <div className='flex'>
               <Image width={16.2} height={16.2} src='/map.svg' alt="map pin" />
               <span className='text-sm ml-[6px]'>Abuja, Nigeria</span>
@@ -38,12 +38,12 @@ const About = () => {
               <a href="mailto:Echezona2000@gmail.com" className='underline text-sm ml-[6px] hover:text-accent'>Echezona2000@gmail.com</a>
             </div>
           </div>
-          <div className='flex gap-3 items-center'>
-            <Link href={'https://drive.google.com/file/d/1rB12Irl8TrAbVWUGrOKVDrf_wwPpluTm/view'} target='_blank' className='px-6 py-[17px] flex border border-accent rounded-lg hover:bg-accent transition-all ease-in'>
+          <div className='flex flex-col sm:flex-row gap-3 items-center'>
+            <Link href={'https://drive.google.com/file/d/1rB12Irl8TrAbVWUGrOKVDrf_wwPpluTm/view'} target='_blank' className='px-6 py-[17px] flex border border-accent rounded-lg hover:bg-accent transition-all ease-in w-max'>
             <Image width={20} height={20} src='/resume.svg' alt="resume icon" className='mr-3' />
             View resume
             </Link>
-            <hr className='opacity-30 w-[50px]' />
+            <hr className='opacity-30 w-[50px] hidden sm:block' />
             <ul className='flex gap-4'>
             <Link href={'https://www.linkedin.com/in/echezona-oji-263b1b148'} target="_blank" className="ease-in transition-all hover:scale-110">
           <li className='tracking-[0.42px] text-sm'><Image src='/linkedin.svg' width={16} height={16} alt="linkedin icon" /></li>
