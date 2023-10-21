@@ -28,21 +28,6 @@ body {
   color: rgb(var(--foreground-rgb));
   background: var(--background);
   overflow-x: hidden;
-  /* background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb)); */
-}
-
-.mobile-menu {
-  transform: translateY(0);
-  transition: transform 0.3s linear;
-}
-
-.mobile-menu.hidden {
-  transform: translateY(-100%);
 }
 
 .bg-animation:after {
@@ -70,4 +55,3 @@ body {
       background: linear-gradient(var(--angle),#03284b, #085CA8,#03284b,#085CA8);
   }
 }
-
