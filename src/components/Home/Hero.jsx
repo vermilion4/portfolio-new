@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
         </div>
         <h1 className='mb-[7px] animate-fade-up animate-duration-[1500ms] animate-ease-out text-sm sm:text-base'>Hi, my name is Echezona Oji</h1>
-        <h2 className='text-xl sm:text-2xl md:text-3xl xl:text-5xl font-bold tracking-[1.44px] text-center xl:leading-snug mb-[25px] md:mb-[53px] animate-fade-up animate-duration-[1500ms] animate-delay-[400ms] animate-ease-out'>
+        <h2 className='text-2xl md:text-3xl xl:text-5xl font-bold tracking-[1.44px] text-center xl:leading-snug mb-[25px] md:mb-[53px] animate-fade-up animate-duration-[1500ms] animate-delay-[400ms] animate-ease-out'>
           My passion lies in crafting{' '}
           <span className='text-accent'>memorable</span> experiences through
           human-centric & data-driven{' '}
