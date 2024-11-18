@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import CustomImage from '@/components/shared/CustomImage';
 import Link from 'next/link';
 
 const About = () => {
@@ -18,15 +18,15 @@ const About = () => {
             As a passionate frontend developer, I specialize in creating exceptional web experiences that combine clean code with beautiful user interfaces. With expertise in React.js, Next.js, and modern frontend technologies, I transform design concepts into responsive, performant, and user-friendly applications.
             <br />
             <br />
-            I have a strong foundation in JavaScript and modern web development practices, allowing me to build scalable and maintainable applications. My approach combines technical excellence with an eye for detail, ensuring that every project not only functions flawlessly but also provides an engaging user experience. I&lsquo;m particularly skilled in component-based architecture, state management, and optimizing web performance.
+            I have a strong foundation in JavaScript and modern web development practices, allowing me to build scalable and maintainable applications. My approach combines technical excellence with an eye for detail, ensuring that every project not only functions flawlessly but also provides an engaging user experience. I’m particularly skilled in component-based architecture, state management, and optimizing web performance.
           </p>
           <div className='flex gap-3 opacity-30 mb-10'>
             <div className='flex'>
-              <Image width={16.2} height={16.2} src='/map.svg' alt='map pin' />
+              <CustomImage width={16.2} height={16.2} src='/map.svg' alt='map pin' />
               <span className='text-sm ml-[6px]'>Lagos, Nigeria</span>
             </div>
             <div className='flex'>
-              <Image
+              <CustomImage
                 width={16.2}
                 height={16.2}
                 src='/mail.svg'
@@ -46,7 +46,7 @@ const About = () => {
               }
               target='_blank'
               className='px-6 py-[17px] flex border border-accent rounded-lg hover:bg-accent transition-all ease-in w-max'>
-              <Image
+              <CustomImage
                 width={20}
                 height={20}
                 src='/resume.svg'

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CustomImage from "./CustomImage";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
@@ -18,7 +18,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center max-w-7xl mx-auto h-[92px]">
         <div className="flex gap-6 items-center">
           <Link href={'/'}>
-            <Image width={69} height={32.33} src='/logo.png' alt="Ada's Logo" />
+            <CustomImage width={69} height={32.33} src='/logo.png' alt="Ada's Logo" />
           </Link>
           <div className="space-y-1 hidden md:block">
             <h3 className="text-white font-bold tracking-[0.48px]">Frontend Developer</h3>
@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link href={'/projects'} className={`px-5 py-[9px] rounded-[100px] border border-white border-opacity-30 tracking-[0.42px] text-sm hover:bg-accent hover:bg-opacity-30 ${nav === '/projects' && 'bg-accent'} ease-in transition-all `}>Projects</Link>
           <Link href='/about' className={`px-5 py-[9px] rounded-[100px] border border-white border-opacity-30 tracking-[0.42px] text-sm hover:bg-accent hover:bg-opacity-30 ${nav === '/about' && 'bg-accent'} ease-in transition-all `}>About</Link>
         </ul>
-        <Image width={24} height={24} src='/hamburger.svg' alt="menu icon" className="md:hidden hover:cursor-pointer" onClick={()=> setOpenMenu(!openMenu)} />     
+        <CustomImage width={24} height={24} src='/hamburger.svg' alt="menu icon" className="md:hidden hover:cursor-pointer" onClick={()=> setOpenMenu(!openMenu)} />     
       </nav>
       <div
       className={`md:hidden absolute top-[74px] right-0 ${openMenu ? 'translate-x-0 opacity-100' : 'translate-x-[500px] opacity-0'} transition-all ease-in duration-500 z-30 bg-primary p-10`}
@@ -44,5 +44,5 @@ const Navbar = () => {
     </header>
    );
 }
- 
+
 export default Navbar;

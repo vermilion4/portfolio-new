@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import CustomImage from '@/components/shared/CustomImage';
 import Link from 'next/link';
 
 const Hero = () => {
@@ -10,7 +10,7 @@ const Hero = () => {
             <span className='px-2 py-[3px] rounded-[2px] text-xs lg:text-sm tracking-[0.42px] border-[0.5px] border-white border-opacity-10 bg-white bg-opacity-[12%]'>
               React.js
             </span>
-            <Image
+            <CustomImage
               src='/cursor1.svg'
               width={14}
               height={19}
@@ -23,7 +23,7 @@ const Hero = () => {
           <span className='px-2 py-[3px] rounded-[2px] text-xs lg:text-sm tracking-[0.42px] border-[0.5px] border-white border-opacity-10 bg-white bg-opacity-[12%]'>
             Tailwind
           </span>
-          <Image
+          <CustomImage
             src='/cursor2.svg'
             width={14}
             height={19}
@@ -36,7 +36,7 @@ const Hero = () => {
             <span className='px-2 py-[3px] rounded-[2px] text-xs lg:text-sm tracking-[0.42px] border-[0.5px] border-white border-opacity-10 bg-white bg-opacity-[12%]'>
               Next.js
             </span>
-            <Image
+            <CustomImage
               src='/cursor3.svg'
               width={14}
               height={19}
@@ -53,7 +53,7 @@ const Hero = () => {
         <div className='px-4 md:px-5 py-[10px] md:py-3 bg-accent bg-opacity-20 flex gap-6 items-center rounded-lg animate-fade-up animate-duration-[1500ms] animate-delay-[800ms] animate-ease-out'>
           <p>Check out my projects</p>
           <Link href={'/projects'}>
-          <Image src='/arrow.svg' width={40} height={40} alt='arrow right' className='hover:scale-105 ease-in transition-all animate-pulse' />
+          <CustomImage src='/arrow.svg' width={40} height={40} alt='arrow right' className='hover:scale-105 ease-in transition-all animate-pulse' />
           </Link>
         </div>
       </div>

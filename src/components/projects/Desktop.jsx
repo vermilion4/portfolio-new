@@ -1,5 +1,5 @@
 import { projects } from '@/data/projects';
-import Image from 'next/image';
+import CustomImage from '@/components/shared/CustomImage';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
@@ -37,7 +37,7 @@ export default function Desktop() {
               <span className="sr-only">Loading...</span>
             </div>
           </div>
-          <Image
+          <CustomImage
             loading='lazy'
             src={project.src}
             width={672}
@@ -66,7 +66,7 @@ export default function Desktop() {
                     href={project.preview}
                     target='_blank'
                     className='hover:scale-105 transition-all ease-in'>
-                    <Image
+                    <CustomImage
                       src='/preview.svg'
                       width={30}
                       height={30}

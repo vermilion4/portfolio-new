@@ -1,5 +1,5 @@
 import { projects } from '@/data/projects';
-import Image from 'next/image';
+import CustomImage from '@/components/shared/CustomImage';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
@@ -26,7 +26,7 @@ export default function Mobile() {
 
                 {project?.preview && (
                   <Link href={project.preview} target='_blank'>
-                    <Image
+                    <CustomImage
                       src='/preview.svg'
                       width={30}
                       height={30}
@@ -36,7 +36,7 @@ export default function Mobile() {
                   </Link>
                 )}
 
-                <Image
+                <CustomImage
                   src='/toggle.svg'
                   width={30}
                   height={30}
@@ -56,7 +56,7 @@ export default function Mobile() {
               <span className="sr-only">Loading...</span>
             </div>
           </div>
-              <Image
+              <CustomImage
                 loading='lazy'
                 src={project.src}
                 width={672}

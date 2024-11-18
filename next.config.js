@@ -2,10 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    unoptimized: true, // Disable default image optimization
+    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './src/utils/imageLoader.js',
   },
-  assetPrefix: '/portfolio-new/',
-  basePath: '/portfolio-new',
+  basePath: process.env.NODE_ENV === 'production' ? '/portfolio-new' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio-new/' : '',
   output: 'export'
 }
 
