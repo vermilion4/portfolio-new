@@ -22,14 +22,14 @@ const About = () => {
           </p>
           <div className='flex gap-3 opacity-30 mb-10'>
             <div className='flex'>
-              <CustomImage width={16.2} height={16.2} src='/map.svg' alt='map pin' />
+              <CustomImage width={16.2} height={16.2} src={`${process.env.NEXT_PUBLIC_BASE_PATH}/map.svg`} alt='map pin' />
               <span className='text-sm ml-[6px]'>Lagos, Nigeria</span>
             </div>
             <div className='flex'>
               <CustomImage
                 width={16.2}
                 height={16.2}
-                src='/mail.svg'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/mail.svg`}
                 alt='mail icon'
               />
               <a
@@ -49,7 +49,7 @@ const About = () => {
               <CustomImage
                 width={20}
                 height={20}
-                src='/resume.svg'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/resume.svg`}
                 alt='resume icon'
                 className='mr-3'
               />

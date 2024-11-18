@@ -4,17 +4,17 @@ export const services = [{
   tools: [{
     id: 10,
     name: 'React.js',
-    icon: '/react.svg'
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/react.svg`
   },
   {
     id: 11,
     name: 'Next.js',
-    icon: '/next.svg'
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/next.svg`
   },
   {
     id: 12,
     name: 'JavaScript',
-    icon: '/javascript.svg'
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/javascript.svg`
   }]
 },
 {
@@ -23,12 +23,12 @@ export const services = [{
   tools: [{
     id: 20,
     name: 'Tailwind CSS',
-    icon: '/tailwind.svg'
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/tailwind.svg`
   },
   {
     id: 21,
     name: 'MUI',
-    icon: '/mui.svg'
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/mui.svg`
 }],
 },
 {
@@ -38,11 +38,11 @@ export const services = [{
   {
     id: 31,
     name: 'Git',
-    icon: '/git.svg'
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/git.svg`
   },
   {
     id: 32,
     name: 'Redux',
-    icon: '/redux.svg'
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/redux.svg`
   }]
 }];
