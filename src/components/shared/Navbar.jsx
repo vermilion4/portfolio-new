@@ -16,13 +16,13 @@ const Navbar = () => {
       }
 
       <nav className="flex justify-between items-center max-w-7xl mx-auto h-[92px]">
-        <div className="flex gap-8 items-center">
+        <div className="flex gap-6 items-center">
           <Link href={'/'}>
-            <Image width={69} height={32.33} src='/logo.svg' alt="Eche's Logo" />
+            <Image width={69} height={32.33} src='/logo.png' alt="Ada's Logo" />
           </Link>
           <div className="space-y-1 hidden md:block">
-            <h3 className="text-white font-bold tracking-[0.48px]">Product Designer</h3>
-            <p className="text-white opacity-50 text-sm tracking-[0.42px]">Echezona Oji</p>
+            <h3 className="text-white font-bold tracking-[0.48px]">Frontend Developer</h3>
+            <p className="text-white opacity-50 text-sm tracking-[0.42px]">Adaeze Ndupu</p>
           </div>
         </div>
         <ul className="hidden md:flex gap-4">

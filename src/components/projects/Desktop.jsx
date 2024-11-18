@@ -61,26 +61,13 @@ export default function Desktop() {
                 </p>
               </div>
               <div className='absolute bottom-5 right-5 flex gap-3 items-center'>
-                {project?.behance && (
+                {project?.preview && (
                   <Link
-                    href={project.behance}
+                    href={project.preview}
                     target='_blank'
                     className='hover:scale-105 transition-all ease-in'>
                     <Image
-                      src='/behance-circle.svg'
-                      width={30}
-                      height={30}
-                      alt='social media icon'
-                    />
-                  </Link>
-                )}
-                {project?.figma && (
-                  <Link
-                    href={project.figma}
-                    target='_blank'
-                    className='hover:scale-105 transition-all ease-in'>
-                    <Image
-                      src='/figma-circle.svg'
+                      src='/preview.svg'
                       width={30}
                       height={30}
                       alt='social media icon'

@@ -1,39 +1,48 @@
 export const services = [{
   id: 1,
-  title: 'UI/UX Design',
+  title: 'Frontend Development',
   tools: [{
     id: 10,
-    name: 'Figma',
-    icon: '/figma.svg'
+    name: 'React.js',
+    icon: '/react.svg'
+  },
+  {
+    id: 11,
+    name: 'Next.js',
+    icon: '/next.svg'
+  },
+  {
+    id: 12,
+    name: 'JavaScript',
+    icon: '/javascript.svg'
   }]
 },
 {
   id: 2,
-  title: 'Graphic Design',
+  title: 'Responsive Web Design',
   tools: [{
     id: 20,
-    name: 'Figma',
-    icon: '/figma.svg'
+    name: 'Tailwind CSS',
+    icon: '/tailwind.svg'
   },
   {
-    id: 30,
-    name: 'Photoshop',
-    icon: '/photoshop.svg'
-  }
-  ]
+    id: 21,
+    name: 'MUI',
+    icon: '/mui.svg'
+}],
 },
 {
-  id: 2,
-  title: 'Brand Design',
-  tools: [{
-    id: 40,
-    name: 'Figma',
-    icon: '/figma.svg'
+  id: 3,
+  title: 'Web Performance',
+  tools: [
+  {
+    id: 31,
+    name: 'Git',
+    icon: '/git.svg'
   },
   {
-    id: 50,
-    name: 'Photoshop',
-    icon: '/photoshop.svg'
+    id: 32,
+    name: 'Redux',
+    icon: '/redux.svg'
   }]
-}
-];
+}];

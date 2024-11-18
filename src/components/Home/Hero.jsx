@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='absolute -top-5 lg:left-0 -left-5 animate-pulse'>
           <div className='relative p-1 pt-[2.5px] rounded-[2px] border-[0.5px] border-white border-opacity-10'>
             <span className='px-2 py-[3px] rounded-[2px] text-xs lg:text-sm tracking-[0.42px] border-[0.5px] border-white border-opacity-10 bg-white bg-opacity-[12%]'>
-              Brand Design
+              React.js
             </span>
             <Image
               src='/cursor1.svg'
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className='relative -top-16 p-1 pt-[2.5px] rounded-[2px] border-[0.5px] border-white border-opacity-10 animate-pulse'>
           <span className='px-2 py-[3px] rounded-[2px] text-xs lg:text-sm tracking-[0.42px] border-[0.5px] border-white border-opacity-10 bg-white bg-opacity-[12%]'>
-            Graphic Design
+            Tailwind
           </span>
           <Image
             src='/cursor2.svg'
@@ -34,7 +34,7 @@ const Hero = () => {
         <div className='absolute -top-5 lg:right-0 -right-5'>
           <div className='p-1 pt-[2.5px] rounded-[2px] border-[0.5px] border-white border-opacity-10 animate-pulse'>
             <span className='px-2 py-[3px] rounded-[2px] text-xs lg:text-sm tracking-[0.42px] border-[0.5px] border-white border-opacity-10 bg-white bg-opacity-[12%]'>
-              UI/UX Design
+              Next.js
             </span>
             <Image
               src='/cursor3.svg'
@@ -45,12 +45,10 @@ const Hero = () => {
             />
           </div>
         </div>
-        <h1 className='mb-[7px] animate-fade-up animate-duration-[1500ms] animate-ease-out text-base'>Hi, my name is Echezona Oji</h1>
+        <h1 className='mb-[7px] animate-fade-up animate-duration-[1500ms] animate-ease-out text-base'>Hi, my name is Adaeze Ndupu</h1>
         <h2 className='text-2xl md:text-3xl xl:text-5xl font-bold tracking-[1.44px] text-center xl:leading-snug mb-[25px] md:mb-[53px] animate-fade-up animate-duration-[1500ms] animate-delay-[400ms] animate-ease-out'>
-          My passion lies in crafting{' '}
-          <span className='text-accent'>memorable</span> experiences through
-          human-centric & data-driven{' '}
-          <span className='text-accent'>designs</span>.
+          I craft <span className='text-accent'>exceptional</span> web experiences through
+          modern frontend <span className='text-accent'>development</span>.
         </h2>
         <div className='px-4 md:px-5 py-[10px] md:py-3 bg-accent bg-opacity-20 flex gap-6 items-center rounded-lg animate-fade-up animate-duration-[1500ms] animate-delay-[800ms] animate-ease-out'>
           <p>Check out my projects</p>
