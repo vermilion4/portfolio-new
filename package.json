@@ -1,7 +1,7 @@
 {
   "name": "ada-portfolio",
   "version": "0.1.0",
-  "homepage": "https://vermilion4.github.io/portfolio-new",
+  "homepage": "https://adacoder.ng/",
   "private": true,
   "scripts": {
     "dev": "next dev",
