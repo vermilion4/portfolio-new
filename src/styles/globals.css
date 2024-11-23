@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: 'Product Sans Regular';
-  src: url('/portfolio-new/font/Product Sans Regular.ttf') format('truetype');
+  src: url('/font/Product Sans Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Product Sans Bold';
-  src: url('/portfolio-new/font/Product Sans Bold.ttf') format('truetype');
+  src: url('/font/Product Sans Bold.ttf') format('truetype');
 }
 
 :root {

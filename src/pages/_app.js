@@ -8,18 +8,22 @@ export default function App({ Component, pageProps }) {
       <Head>
         <title>Adaeze Ndupu | Frontend Developer Portfolio</title>
         <meta name="description"
-          content="Adaeze Ndupu is a frontend developer specializing in HTML, CSS, Javascript, React, Git, Bootstrap, Tailwind, Next.js, and WordPress. Explore her portfolio to see her latest projects and learn more about her skills and experience." />
+          content="Adaeze Ndupu is a frontend developer specializing in HTML, CSS, Javascript, React, Git, Bootstrap, Tailwind, Next.js, and Webflow. Explore her portfolio to see her latest projects and learn more about her skills and experience." />
         <meta name="author" content="Adaeze Ndupu" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Adaeze Ndupu's Portfolio" />
         <meta property="og:description" content="Adaeze Ndupu - Frontend Developer. Passionate about creating exceptional websites that merge functionality with aesthetics. Specializing in frontend development. Crafting user-friendly and responsive solutions that enhance user experiences." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://vermilion4.github.io/portfolio-new/" />
+        <meta property="og:url" content="https://adacoder.ng/" />
+        <meta property="og:image" content="https://adacoder.ng/ada.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@what_is_a_swat" />
+        <meta name="twitter:image" content="https://adacoder.ng/ada.jpg" />
         
         {/* JSON-LD */}
         <script
@@ -34,10 +38,10 @@ export default function App({ Component, pageProps }) {
                 "@type": "Person",
                 "name": "Adaeze Ndupu"
               },
-              "url": "https://vermilion4.github.io/portfolio-new/",
+              "url": "https://adacoder.ng/",
               "potentialAction": {
                 "@type": "SearchAction",
-                "target": "https://vermilion4.github.io/portfolio-new/?q={search_term_string}",
+                "target": "https://adacoder.ng/?q={search_term_string}",
                 "query-input": "required name=search_term_string"
               },
               "sameAs": [
@@ -50,7 +54,7 @@ export default function App({ Component, pageProps }) {
               ],
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://vermilion4.github.io/portfolio-new/"
+                "@id": "https://adacoder.ng/"
               }
             })
           }}
