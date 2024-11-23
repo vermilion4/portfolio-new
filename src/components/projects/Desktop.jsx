@@ -67,7 +67,7 @@ export default function Desktop() {
                     target='_blank'
                     className='hover:scale-105 transition-all ease-in'>
                     <CustomImage
-                      src={`${process.env.NEXT_PUBLIC_BASE_PATH}/preview.svg`}
+                      src={`/preview.svg`}
                       width={30}
                       height={30}
                       alt='social media icon'

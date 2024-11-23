@@ -11,7 +11,7 @@ const Hero = () => {
               React.js
             </span>
             <CustomImage
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/cursor1.svg`}
+              src={`/cursor1.svg`}
               width={14}
               height={19}
               alt='cursor'
@@ -24,7 +24,7 @@ const Hero = () => {
             Tailwind
           </span>
           <CustomImage
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH}/cursor2.svg`}
+            src={`/cursor2.svg`}
             width={14}
             height={19}
             alt='cursor'
@@ -37,7 +37,7 @@ const Hero = () => {
               Next.js
             </span>
             <CustomImage
-              src={`${process.env.NEXT_PUBLIC_BASE_PATH}/cursor3.svg`}
+              src={`/cursor3.svg`}
               width={14}
               height={19}
               alt='cursor'
@@ -53,7 +53,7 @@ const Hero = () => {
         <div className='px-4 md:px-5 py-[10px] md:py-3 bg-accent bg-opacity-20 flex gap-6 items-center rounded-lg animate-fade-up animate-duration-[1500ms] animate-delay-[800ms] animate-ease-out'>
           <p>Check out my projects</p>
           <Link href={'/projects'}>
-          <CustomImage src={`${process.env.NEXT_PUBLIC_BASE_PATH}/arrow.svg`} width={40} height={40} alt='arrow right' className='hover:scale-105 ease-in transition-all animate-pulse' />
+          <CustomImage src={`/arrow.svg`} width={40} height={40} alt='arrow right' className='hover:scale-105 ease-in transition-all animate-pulse' />
           </Link>
         </div>
       </div>

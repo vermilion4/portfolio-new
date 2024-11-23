@@ -27,7 +27,7 @@ export default function Mobile() {
                 {project?.preview && (
                   <Link href={project.preview} target='_blank'>
                     <CustomImage
-                      src={`${process.env.NEXT_PUBLIC_BASE_PATH}/preview.svg`}
+                      src={`/preview.svg`}
                       width={30}
                       height={30}
                       alt='social media icon'
@@ -37,7 +37,7 @@ export default function Mobile() {
                 )}
 
                 <CustomImage
-                  src={`${process.env.NEXT_PUBLIC_BASE_PATH}/toggle.svg`}
+                  src={`/toggle.svg`}
                   width={30}
                   height={30}
                   alt='toggle icon'
