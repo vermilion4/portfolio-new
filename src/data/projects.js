@@ -31,8 +31,6 @@ export const projects = [
     title: "FacesearchAI",
     src: `/project-5.png`,
     description: "An advanced AI technology that scans billions of images across the web to find and identify faces with unparalleled accuracy.",
-    width: 672,
-    height: 501,
     alt: "Project 5",
     preview: 'https://persist-facesearchai.netlify.app/',
   },

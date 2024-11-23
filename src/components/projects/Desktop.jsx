@@ -50,9 +50,7 @@ export default function Desktop() {
             <div className='absolute top-0 left-0 w-full h-full bg-black bg-opacity-80 transition-all duration-500 grid place-content-center text-center text-white rounded-lg ease-in-out'>
               {/* Add project details here */}
               <div
-                className={`w-2/3 mx-auto ${
-                  index === projects.length - 1 && 'w-full'
-                } `}>
+                className={`w-2/3 mx-auto`}>
                 <p className='font-bold tracking-[0.48px] pb-2'>
                   {project.title}
                 </p>
