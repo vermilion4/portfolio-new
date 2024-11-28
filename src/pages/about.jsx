@@ -20,7 +20,7 @@ const About = () => {
             <br />
             I have a strong foundation in JavaScript and modern web development practices, allowing me to build scalable and maintainable applications. My approach combines technical excellence with an eye for detail, ensuring that every project not only functions flawlessly but also provides an engaging user experience. I’m particularly skilled in component-based architecture, state management, and optimizing web performance.
           </p>
-          <div className='flex gap-3 opacity-30 mb-10'>
+          <div className='flex gap-3 opacity-50 mb-10'>
             <div className='flex'>
               <CustomImage width={16.2} height={16.2} src={`/map.svg`} alt='map pin' />
               <span className='text-sm ml-[6px]'>Lagos, Nigeria</span>

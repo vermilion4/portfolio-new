@@ -25,7 +25,7 @@ export const projects = [
     src: `/project-4.webp`,
     description: "This is my older portfolio website made with HTML, CSS and Javascript",
     alt: "Project 4",
-    preview: 'https://vermilion-resume.netlify.app/'
+    preview: 'https://vermilionresume.netlify.app/'
   },
   {
     title: "FacesearchAI",
