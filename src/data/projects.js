@@ -7,11 +7,11 @@ export const projects = [
     preview: 'https://stuternmedbot.netlify.app/'
   },
   {
-    title: "GetlinkedAI",
+    title: "Patientgrid",
     src: `/project-2.png`,
-    description: "GetlinkedAI was a hackathon project that involved building an animated landing page with countdown and an interactive form for registration",
+    description: "Patientgrid is a hypothetical platform that connects patients with healthcare providers. It allows patients to book appointments, view medical records, and receive personalized care.",
     alt: "Project 2",
-    preview: 'https://getlinkedai-red.vercel.app/'
+    preview: 'https://creatiwise-test.netlify.app/'
   },
   {
     title: "Codefunhouse Blog",
@@ -34,5 +34,12 @@ export const projects = [
     alt: "Project 5",
     preview: 'https://persist-facesearchai.netlify.app/',
   },
+  {
+    title: "Zuri Team",
+    src: `/project-6.png`,
+    description: "Zuri Team is a cloned version of the older platform that connects developers with opportunities to work on projects and collaborate with other developers.",
+    alt: "Project 6",
+    preview: 'https://zuri-landing-ady.netlify.app/'
+  }
 
 ];
