@@ -6,13 +6,13 @@ export const projects = [
     alt: "Project 1",
     preview: 'https://stuternmedbot.netlify.app/'
   },
-  {
-    title: "Patientgrid",
-    src: `/project-2.png`,
-    description: "Patientgrid is a hypothetical platform that connects patients with healthcare providers. It allows patients to book appointments, view medical records, and receive personalized care.",
-    alt: "Project 2",
-    preview: 'https://creatiwise-test.netlify.app/'
-  },
+  // {
+  //   title: "Patientgrid",
+  //   src: `/project-2.png`,
+  //   description: "Patientgrid is a hypothetical platform that connects patients with healthcare providers. It allows patients to book appointments, view medical records, and receive personalized care.",
+  //   alt: "Project 2",
+  //   preview: 'https://creatiwise-test.netlify.app/'
+  // },
   {
     title: "Codefunhouse Blog",
     src: `/project-3.png`,
@@ -40,6 +40,20 @@ export const projects = [
     description: "Zuri Team is a cloned version of the older platform that connects developers with opportunities to work on projects and collaborate with other developers.",
     alt: "Project 6",
     preview: 'https://zuri-landing-ady.netlify.app/'
+  },
+  {
+    title: "Cosmic AI Text Processor",
+    src: `/project-7.png`,
+    description: "A Space-themed Text Processor that provides AI-powered text processing capabilities including language detection, translation between supported languages, and text summarization using Chrome's built-in APIs.",
+    alt: "Project 7",
+    preview: 'https://ada-ai-text-processor.netlify.app/'
+  },
+  {
+    title: "TICZ",
+    src: `/project-8.png`,
+    description: "A modern conference ticket booking application with local storage and download functionality.",
+    alt: "Project 8",
+    preview: 'https://ada-conference-ticket-generator.netlify.app/'
   }
 
 ];
