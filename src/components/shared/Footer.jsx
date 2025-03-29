@@ -3,17 +3,17 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='bg-primary pt-20 px-5 sm:px-10'>
-      <hr className='max-w-7xl mx-auto opacity-20 ' />
+    <footer className='px-5 pt-20 bg-primary sm:px-10'>
+      <hr className='mx-auto max-w-7xl opacity-20 ' />
       <nav className='flex justify-between items-center max-w-7xl mx-auto h-[92px]'>
         <div className='text-xs sm:text-sm flex items-center tracking-[0.42px]'>
-          <span className='mr-[6px] mt-2 text-2xl'>&copy;</span>2024 Adaeze Ndupu
+          <span className='mr-[6px] mt-2 text-2xl'>&copy;</span>2025 Adaeze Ndupu
         </div>
         <ul className='flex gap-4'>
           <Link
             href={'https://www.linkedin.com/in/adaeze-ndupu'}
             target='_blank'
-            className='ease-in transition-all hover:scale-110'>
+            className='transition-all ease-in hover:scale-110'>
             <li className='tracking-[0.42px] text-sm'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -32,7 +32,7 @@ const Footer = () => {
           <Link
             href={'https://github.com/vermilion4'}
             target='_blank'
-            className='ease-in transition-all hover:scale-110'>
+            className='transition-all ease-in hover:scale-110'>
             <li className='tracking-[0.42px] text-sm'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -50,7 +50,7 @@ const Footer = () => {
           <Link
             href={'https://twitter.com/what_is_a_swat'}
             target='_blank'
-            className='ease-in transition-all hover:scale-110'>
+            className='transition-all ease-in hover:scale-110'>
             <li className='tracking-[0.42px] text-sm'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
