@@ -4,7 +4,7 @@ import Link from 'next/link';
 const About = () => {
   return (
     <section className='px-5 sm:px-10 mx-auto pt-[166px]'>
-      <div className='grid lg:grid-cols-2 gap-16 max-w-7xl mx-auto'>
+      <div className='grid gap-16 mx-auto lg:grid-cols-2 max-w-7xl'>
         <div class='relative rounded-lg p-[2px] bg-animation h-[543px]'>
           <div className='relative bg-blend-luminosity bg-ada w-full bg-center bg-cover bg-no-repeat bg-primary rounded-lg animate-fade-up animate-duration-[2000ms] animate-ease-in-out z-20 h-full'></div>
         </div>
@@ -20,7 +20,7 @@ const About = () => {
             <br />
             I have a strong foundation in JavaScript and modern web development practices, allowing me to build scalable and maintainable applications. My approach combines technical excellence with an eye for detail, ensuring that every project not only functions flawlessly but also provides an engaging user experience. I’m particularly skilled in component-based architecture, state management, and optimizing web performance.
           </p>
-          <div className='flex gap-3 opacity-50 mb-10'>
+          <div className='flex gap-3 mb-10 opacity-50'>
             <div className='flex'>
               <CustomImage width={16.2} height={16.2} src={`/map.svg`} alt='map pin' />
               <span className='text-sm ml-[6px]'>Lagos, Nigeria</span>
@@ -39,10 +39,10 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className='flex gap-3 items-center'>
+          <div className='flex items-center gap-3'>
             <Link
               href={
-                'https://drive.google.com/file/d/1k7bprgKoTyzCRtsM48Mpsh28MDrFM7oW/view?usp=sharing'
+                'https://docs.google.com/document/d/1Mexv6ZytVI_7gC3rX6LhbSFL30qlGarpNPDhdVUxnXo/edit?usp=sharing'
               }
               target='_blank'
               className='px-6 py-[17px] flex border border-accent rounded-lg hover:bg-accent transition-all ease-in w-max'>
@@ -56,11 +56,11 @@ const About = () => {
               View resume
             </Link>
             <hr className='opacity-30 w-[50px] hidden sm:block' />
-            <ul className='gap-4 hidden sm:flex'>
+            <ul className='hidden gap-4 sm:flex'>
             <Link
             href={'https://www.linkedin.com/in/adaeze-ndupu'}
             target='_blank'
-            className='ease-in transition-all hover:scale-110'>
+            className='transition-all ease-in hover:scale-110'>
             <li className='tracking-[0.42px] text-sm'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -79,7 +79,7 @@ const About = () => {
           <Link
             href={'https://github.com/vermilion4'}
             target='_blank'
-            className='ease-in transition-all hover:scale-110'>
+            className='transition-all ease-in hover:scale-110'>
             <li className='tracking-[0.42px] text-sm'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
@@ -97,7 +97,7 @@ const About = () => {
           <Link
             href={'https://twitter.com/what_is_a_swat'}
             target='_blank'
-            className='ease-in transition-all hover:scale-110'>
+            className='transition-all ease-in hover:scale-110'>
             <li className='tracking-[0.42px] text-sm'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
