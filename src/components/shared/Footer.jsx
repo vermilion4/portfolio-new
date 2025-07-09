@@ -1,13 +1,14 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className='px-5 pt-20 bg-primary sm:px-10'>
       <hr className='mx-auto max-w-7xl opacity-20 ' />
       <nav className='flex justify-between items-center max-w-7xl mx-auto h-[92px]'>
         <div className='text-xs sm:text-sm flex items-center tracking-[0.42px]'>
-          <span className='mr-[6px] mt-2 text-2xl'>&copy;</span>2025 Adaeze Ndupu
+          <span className='mr-[6px] mt-2 text-2xl'>&copy;</span>{currentYear} Adaeze Ndupu
         </div>
         <ul className='flex gap-4'>
           <Link

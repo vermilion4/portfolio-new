@@ -20,19 +20,19 @@ export const projects = [
     alt: "Project 3",
     preview: 'https://www.blog.codefunhouse.com'
   },
+  // {
+  //   title: "Portfolio",
+  //   src: `/project-4.webp`,
+  //   description: "This is my older portfolio website made with HTML, CSS and Javascript",
+  //   alt: "Project 4",
+  //   preview: 'https://vermilionresume.netlify.app/'
+  // },
   {
-    title: "Portfolio",
-    src: `/project-4.webp`,
-    description: "This is my older portfolio website made with HTML, CSS and Javascript",
-    alt: "Project 4",
-    preview: 'https://vermilionresume.netlify.app/'
-  },
-  {
-    title: "FacesearchAI",
+    title: "InScripts Spreadsheet",
     src: `/project-5.png`,
-    description: "An advanced AI technology that scans billions of images across the web to find and identify faces with unparalleled accuracy.",
+    description: "A modern, feature-rich spreadsheet application built with React 18 and TypeScript. Features include interactive tables, cell editing, dynamic headers, data import/export, multiple sheets, and responsive design with Tailwind CSS.",
     alt: "Project 5",
-    preview: 'https://persist-facesearchai.netlify.app/',
+    preview: 'https://inscripts-spreadsheet-ada.vercel.app/',
   },
   {
     title: "Zuri Team",
