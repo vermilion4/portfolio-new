@@ -21,7 +21,7 @@ const Projects = () => {
 
   return ( 
     <section className="px-5 pt-24 sm:px-10">
-      <div className="flex flex-col mx-auto max-w-7xl">
+      <div className="flex flex-col mx-auto max-w-7xl animate-fade-up animate-duration-[1500ms] animate-ease-out">
         {/* <div className="text-white text-lg font-bold tracking-[0.54px]">
           Project Showcase
         </div>

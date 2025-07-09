@@ -35,7 +35,7 @@ export default function InteractiveShowcase() {
   return (
     <div className="w-full mt-12">
       {/* Section Header */}
-      <div className="mb-8 text-center">
+      <div className="mb-8 text-center animate-fade-up animate-duration-[1500ms] animate-delay-[200ms] animate-ease-out">
         <h2 className="text-2xl font-bold tracking-[0.54px] text-white mb-4">
           Interactive Project Demo
         </h2>
@@ -54,7 +54,7 @@ export default function InteractiveShowcase() {
               onClick={() => handleProjectSelect(project)}
               className={`
                 relative group cursor-pointer transition-all duration-300 ease-in-out
-                bg-white bg-opacity-[8%] rounded-lg p-4
+                bg-white bg-opacity-[8%] rounded-lg p-4 animate-fade-up animate-duration-[1500ms] animate-delay-[${400 + (index * 100)}ms] animate-ease-out
                 ${isSelected 
                   ? 'border border-red-500 bg-opacity-[15%]' 
                   : 'border border-transparent hover:border-red-500 hover:bg-opacity-[12%] hover:scale-105'
@@ -104,7 +104,7 @@ export default function InteractiveShowcase() {
 
       {/* Interactive Iframe Section */}
       {selectedProject && (
-        <div className="relative" ref={iframeSectionRef}>
+        <div className="relative animate-fade-up animate-duration-[1000ms] animate-ease-out" ref={iframeSectionRef}>
           {/* Header */}
           <div className="relative mb-4 p-4 bg-white bg-opacity-[8%] rounded-lg border border-red-500 border-opacity-30">
             <button
@@ -193,7 +193,7 @@ export default function InteractiveShowcase() {
 
       {/* Empty State */}
       {!selectedProject && (
-        <div className="py-12 text-center">
+        <div className="py-12 text-center animate-fade-up animate-duration-[1500ms] animate-delay-[600ms] animate-ease-out">
           <div className="w-16 h-16 mx-auto mb-4 text-gray-600">
             <svg className="w-full h-full" fill="currentColor" viewBox="0 0 24 24">
               <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>

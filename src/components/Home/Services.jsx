@@ -26,7 +26,6 @@ const Services = () => {
                       height={18}
                       src={icon}
                       alt={name}
-                      layout='responsive'
                     />
                   </div>
                   <p className='text-white text-opacity-70 text-sm'>{name}</p>
