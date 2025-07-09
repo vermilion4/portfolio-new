@@ -46,17 +46,21 @@ export default function InteractiveShowcase() {
 
       {/* Project Selection Grid */}
       <div className="grid grid-cols-1 gap-4 mb-8 md:grid-cols-2 lg:grid-cols-3">
-        {projects.map((project, index) => (
-          <div
-            key={index}
-            onClick={() => handleProjectSelect(project)}
-            className={`
-              relative group cursor-pointer transition-all duration-300 ease-in-out
-              bg-white bg-opacity-[8%] rounded-lg p-4 border border-transparent
-              hover:border-red-500 hover:bg-opacity-[12%] hover:scale-105
-              ${selectedProject?.title === project.title ? 'border-red-500 bg-opacity-[15%] scale-105' : ''}
-            `}
-          >
+        {projects.map((project, index) => {
+          const isSelected = selectedProject?.title === project.title;
+          return (
+            <div
+              key={index}
+              onClick={() => handleProjectSelect(project)}
+              className={`
+                relative group cursor-pointer transition-all duration-300 ease-in-out
+                bg-white bg-opacity-[8%] rounded-lg p-4
+                ${isSelected 
+                  ? 'border border-red-500 bg-opacity-[15%]' 
+                  : 'border border-transparent hover:border-red-500 hover:bg-opacity-[12%] hover:scale-105'
+                }
+              `}
+            >
             {/* Project Image */}
             <div className="relative mb-3 overflow-hidden rounded-lg">
               <CustomImage
@@ -90,11 +94,12 @@ export default function InteractiveShowcase() {
             </div>
 
             {/* Selection Indicator */}
-            {selectedProject?.title === project.title && (
+            {isSelected && (
               <div className="absolute w-3 h-3 bg-red-500 rounded-full top-2 right-2 animate-pulse"></div>
             )}
           </div>
-        ))}
+        );
+        })}
       </div>
 
       {/* Interactive Iframe Section */}
