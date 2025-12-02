@@ -6,13 +6,13 @@ export const projects = [
     alt: "Project 1",
     preview: 'https://stuternmedbot.netlify.app/'
   },
-  // {
-  //   title: "Patientgrid",
-  //   src: `/project-2.png`,
-  //   description: "Patientgrid is a hypothetical platform that connects patients with healthcare providers. It allows patients to book appointments, view medical records, and receive personalized care.",
-  //   alt: "Project 2",
-  //   preview: 'https://creatiwise-test.netlify.app/'
-  // },
+  {
+    title: "Regret Archive",
+    src: `/project-2.png`,
+    description: "A safe, anonymous platform for sharing regrets and life lessons. Connect with others who understand your experiences and turn regrets into collective wisdom.",
+    alt: "Project 2",
+    preview: 'https://regret-archive.appwrite.network/'
+  },
   {
     title: "Codefunhouse Blog",
     src: `/project-3.png`,

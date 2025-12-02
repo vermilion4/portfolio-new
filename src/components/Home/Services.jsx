@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Services = () => {
   return (
-    <section className='max-w-7xl mx-auto pt-14 pb-20 flex flex-col items-center px-5 sm:px-10'>
+    <section className='flex flex-col items-center px-5 pb-20 mx-auto max-w-7xl pt-14 sm:px-10'>
       <h2 className='text-2xl font-bold tracking-[0.72px] mb-4'>My Services</h2>
       <p className='text-white opacity-30 text-sm tracking-[0.42px] mb-12'>
         Services I offer to my clients
@@ -28,7 +28,7 @@ const Services = () => {
                       alt={name}
                     />
                   </div>
-                  <p className='text-white text-opacity-70 text-sm'>{name}</p>
+                  <p className='text-sm text-white text-opacity-70'>{name}</p>
                 </div>
               ))}
             </div>
